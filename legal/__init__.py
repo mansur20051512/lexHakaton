@@ -1,0 +1,1 @@
+# ADOLAT.AI Legal App

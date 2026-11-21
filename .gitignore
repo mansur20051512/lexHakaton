@@ -1,0 +1,46 @@
+# Environments and Secret Keys (MUTLAQO MAXFIY - GITHUBGA CHIQMAYDI)
+.env
+.env.*
+*.env
+!.env.example
+
+# Database
+*.sqlite3
+*.sqlite3-journal
+db.sqlite3
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Media and User Uploads (Generatsiyalangan hujjatlar va yuklangan fayllar)
+media/generated_docs/*
+!media/generated_docs/.gitkeep
+media/uploads/*
+!media/uploads/.gitkeep
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+scratch/
