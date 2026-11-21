@@ -1,86 +1,130 @@
-# ⚖️ ADOLAT.AI — O‘zbekiston Respublikasi Huquqiy Xizmatlari Milliy Portali (LegalTech)
+<div align="center">
 
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Django 5.x](https://img.shields.io/badge/Django-5.2-green.svg)](https://www.djangoproject.com/)
-[![VoiceLab Aisha Orbit](https://img.shields.io/badge/AI-VoiceLab%20Aisha%20Orbit%20755B-orange.svg)](https://voicelab.uz)
-[![Lex.uz 2026 Standart](https://img.shields.io/badge/Legislation-Lex.uz%202026%20BHM%20440k-red.svg)](https://lex.uz)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<!-- Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,24,42,100&height=220&section=header&text=ADOLAT.AI%20%E2%9A%96%EF%B8%8F&fontSize=42&fontColor=ffffff&animation=fadeIn&subtext=O%E2%80%98zbekiston%20Respublikasi%20Huquqiy%20Xizmatlari%20Milliy%20Portali%20(LegalTech)&subfontSize=16&subfontColor=d1d5db" width="100%" />
 
-**ADOLAT.AI** — O‘zbekiston Respublikasi qonunchiligi (Lex.uz) va Adliya vazirligi standartlari asosida fuqarolarga sudgacha tinch, tez va qonuniy yechim beruvchi innovatsion sun'iy intellekt (LegalTech) milliy platformasi.
+<p align="center">
+  <a href="https://github.com/mansur20051512/lexHakaton">
+    <img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+" />
+  </a>
+  <a href="https://github.com/mansur20051512/lexHakaton">
+    <img src="https://img.shields.io/badge/Django-5.2-092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django 5.2" />
+  </a>
+  <a href="https://voicelab.uz">
+    <img src="https://img.shields.io/badge/AI-VoiceLab%20Aisha%20Orbit%20755B-FF6F00.svg?style=for-the-badge&logo=openai&logoColor=white" alt="VoiceLab Aisha" />
+  </a>
+  <a href="https://lex.uz">
+    <img src="https://img.shields.io/badge/Lex.uz%202026-BHM%20440%2C000%20so%27m-critical.svg?style=for-the-badge&logo=googledocs&logoColor=white" alt="Lex.uz 2026" />
+  </a>
+  <a href="https://github.com/mansur20051512/lexHakaton/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License" />
+  </a>
+</p>
+
+<p align="center">
+  <b>⚖️ O‘zbekiston Respublikasi Adliya vazirligi standartlari va amaldagi Lex.uz qonunchiligi asosida fuqarolarga sudgacha tinch, tez, arzon va qonuniy huquqiy yordam ko‘rsatuvchi milliy sun'iy intellekt (LegalTech) tizimi.</b>
+</p>
+
+</div>
 
 ---
 
 ## 🌟 Asosiy Imkoniyatlar va Modullar
 
-1. **🏛️ Yuridik Tahlil & Davlat Standartidagi Hujjat Generatori (.docx):**
-   - Muammoni oddiy xalq tilida tahlil qilib, amaldagi kodekslar (FK, MK, MJtK, SK, OK) bo'yicha moddama-modda tushuntiradi.
-   - **2026-yilgi eng yangi qonunchilik:** 1 BHM = **440 000 so'm** va MJtK 332-1-moddasi bo'yicha ma'muriy jarimalarni **15 kun ichida to'laganda 50% chegirma** imtiyozi avtomatik hisoblanadi.
-   - O'zDSt / GOST davlat ish yuritish talablariga 100% mos rasmiy Word (.docx) ariza, da'vo yoki da'voni tan olmaslik hujjati yaratadi.
-
-2. **⚖️ Mediasiya va Foyda Kalkulyatori:**
-   - Sud jarayoni (2–6 oy, 4% davlat boji, advokat xarajatlari) va Mediasiya (3–7 kun, 80%+ ijobiy kelishuv, tejamkorlik) xarajatlari hamda muddatlarini taqqoslab beradi.
-
-3. **🏢 Davlat Idoralariga Murojaat Konstruktori (O‘RQ-445):**
-   - «Jismoniy va yuridik shaxslarning murojaatlari to‘g‘risida»gi Qonun asosida portal, vazirlik, hokimiyat va prokuraturaga rasmiy murojaat loyihalarini shakllantiradi.
-
-4. **📑 Notariat Gidi va Bojlar Portali (My.gov.uz & E-notarius):**
-   - Meros, oldi-sotdi, hadya va ishonchnomalar bo'yicha talab qilinadigan hujjatlar ro'yxati va davlat boji stavkalarini aniq hisoblab beradi.
-
-5. **🌐 100% Ko‘p tillilik (Trilingual i18n):**
-   - **O'zbekcha (Lotin)**, **Ўзбекча (Кирилл)** va **Русский** tillari o'rtasida bir klikda to'liq sinxron almashadi. Hech qanday kalit tarjimasiz qolib ketmaydi.
-
-6. **🎙️ Multimodal Kiritish (Universal Hujjat O'quvchi & Ovoz):**
-   - Fuqarolar yuridik muammolarini klaviaturada yozishi, **Web Speech API** orqali ovozli aytishi yoki **PDF**, **Rasm (JPG/PNG)**, **DOCX**, **TXT** hujjatlarini yuklab, tizimga tahlil qildirishi mumkin.
+| Modul | Funktsional Tavsifi | Asosiy Qonunchilik / Standart |
+|:---|:---|:---|
+| 🏛️ **Yuridik Tahlil & Hujjat Generatori** | Fuqaroning muammosini tahlil qilib, amaldagi kodekslar (FK, MK, MJtK, SK, OK) bo'yicha batafsil huquqiy xulosa va davlat ish yuritish talabidagi Word (.docx) tayyorlaydi. | O‘zDSt / GOST standartlari, Fuqarolik va Mehnat kodekslari |
+| ⚖️ **Mediasiya & Foyda Kalkulyatori** | Sud (2–6 oy, 4% davlat boji, advokat xarajatlari) va Mediasiya (3–7 kun, 80%+ ijobiy kelishuv, 0 boj) taqqoslamasini beradi. | O‘zR «Mediasiya to‘g‘risida»gi Qonuni |
+| 🏢 **Murojaat Konstruktori** | Vazirliklar, hokimiyatlar, kommunal idoralar va Xalq qabulxonasiga rasmiy ariza va shikoyat loyihalarini shakllantiradi. | O‘zR «Murojaatlar to‘g‘risida»gi Qonuni (O‘RQ-445) |
+| 📑 **Notariat Gidi va Bojlar** | Meros, oldi-sotdi, hadya, ishonchnomalar bo'yicha talab etiladigan hujjatlar va davlat boji stavkalarini aniq hisoblab beradi. | «Davlat boji to‘g‘risida»gi Qonun, My.gov.uz & E-notarius |
+| 🎙️ **Multimodal Qabul (Vision & Ovoz)** | PDF hujjatlar, fotosuratlar (JPG/PNG), Word fayllar hamda real vaqtli ovozli xabarlarni tahlil qilish imkoniyati. | Web Speech API, PyMuPDF, EasyOCR |
+| 🌐 **100% Ko‘p Tillilik (Trilingual i18n)** | O‘zbekcha (Lotin), Ўзбекча (Кирилл) va Русский tillari o'rtasida to'liq sinxron va mukammal moslashuv. | 0 ta tarjimasiz qolgan matn |
 
 ---
 
-## 🧠 Sun'iy Intellekt va Neyrotizim Arxitekturasi
+## 📅 2026-yilgi Qonunchilik Standartlari
 
-Platforma mustaqil va milliy AI tizimlari bilan integratsiyalashgan:
-- **VoiceLab Aisha Orbit (755B) & Aisha Halo Vision:** O'zbek tili grammatikasi, huquqiy terminologiyasi va Lex.uz bazasi bo'yicha chuqur o'qitilgan milliy generativ model.
-- **Qwen 2.5 / OpenAI-compatible REST Client:** Sof Python `requests` orqali ishlaydi (tashqi og'ir SDK'larsiz).
-- **Oflayn Huquqiy Dvijok:** Internet yoki API bo'lmagan taqdirda ham deterministik Lex.uz bilimlar bazasi orqali to'liq ishlaydi.
+Platforma O'zbekiston Respublikasining 2026-yilgi eng so'nggi normativ-huquqiy hujjatlari asosida ishlaydi:
+- **1 BHM (Bazaviy hisoblash miqdori):** **440 000 so‘m** (barcha bojlar, jarimalar va to'lovlar ushbu ko'rsatkichda hisoblanadi).
+- **15 kunlik 50% imtiyozli chegirma:** MJtK 332-1-moddasiga binoan barcha ma'muriy jarimalar (masalan, 440 000 so'mlik jarima 15 kun ichida 220 000 so'm) avtomatik hisoblanib, fuqaroga tejamkor yo'l ko'rsatiladi.
+- **Yangi Mehnat Kodeksi:** 253 va 269-moddalar bo'yicha kechiktirilgan oylik maoshlar uchun kompensatsiya (MB qayta moliyalash stavkasi) hisobi.
 
 ---
 
-## 🔒 Maxfiylik va Xavfsizlik
+## 🏗️ Tizim Arxitekturasi
+
+```mermaid
+flowchart TD
+    User([👤 Fuqaro]) --> Input{Kiritish Shakli}
+    
+    Input -->|Klaviaturada yozish| TextIn[Oddiy xalq tilidagi matn]
+    Input -->|Ovozli aytish| VoiceIn[Web Speech API / Whisper STT]
+    Input -->|Hujjat yuklash| DocIn[Universal Document Reader: PDF, Image, Word]
+    
+    TextIn --> LegalPipeline[⚡ Legal Processing Pipeline]
+    VoiceIn --> LegalPipeline
+    DocIn --> LegalPipeline
+    
+    LegalPipeline --> AI_Engine{🧠 AI Dvijogi}
+    AI_Engine -->|Milliy LLM & Vision| VoiceLab[VoiceLab Aisha Orbit 755B]
+    AI_Engine -->|Open-Source REST| Qwen[Qwen 2.5 72B / Ollama]
+    AI_Engine -->|Deterministik Fallback| RuleEngine[Lex.uz 2026 Knowledge Base]
+    
+    VoiceLab --> OutputGen[Hujjat va Tahlil Konstruktori]
+    Qwen --> OutputGen
+    RuleEngine --> OutputGen
+    
+    OutputGen --> AnalysisUI[🖥️ Interaktiv Huquqiy Tahlil]
+    OutputGen --> DocxExport[📄 O‘zDSt Davlat Standartidagi Word .docx]
+```
+
+---
+
+## 🔒 Xavfsizlik va Maxfiylik Kafolati
 
 > [!IMPORTANT]
-> Ushbu ochiq kodli repozitoriyda hech qanday shaxsiy API kalitlar yoki foydalanuvchi ma'lumotlari saqlanmaydi. Barcha maxfiy kalitlar `.env` fayli orqali boshqariladi va `.gitignore` orqali himoyalangan.
+> - Ushbu repozitoriyda hech qanday shaxsiy API kalitlar yoki xavfsizlik tokenlari saqlanmaydi.
+> - Barcha API kalitlar faqat lokal `.env` faylida saqlanadi va `.gitignore` orqali to'liq himoyalangan.
+> - Fuqarolarning shaxsiy murojaat ma'lumotlari serverda uchinchi shaxslarga uzatilmaydi.
 
 ---
 
 ## 🚀 O'rnatish va Ishga Tushirish
 
-### 1. Repozitoriyadan nusxa olish:
+### 1. Repozitoriydan nusxa olish:
 ```bash
 git clone https://github.com/mansur20051512/lexHakaton.git
 cd lexHakaton
 ```
 
-### 2. Virtual muhit yaratish va kutubxonalarni o'rnatish:
+### 2. Virtual muhit yaratish va bog'liqliklarni o'rnatish:
 ```bash
 python -m venv venv
-# Windows uchun:
+
+# Windows:
 venv\Scripts\activate
-# Linux/macOS uchun:
+
+# Linux / MacOS:
 source venv/bin/activate
 
 pip install -r requirements.txt
 ```
 
-### 3. Konfiguratsiya faylini tayyorlash:
-`.env.example` faylidan nusxa olib, `.env` faylini yarating:
+### 3. Konfiguratsiya faylini sozlash:
+`.env.example` dan nusxa olib, `.env` faylini hosil qiling va o'z kalitingizni kiriting:
 ```bash
 copy .env.example .env
 ```
-O'zingizning VoiceLab yoki Qwen API kalitingizni `.env` fayliga kiriting:
+
 ```env
-VOICELAB_API_KEY=your_actual_key_here
+SECRET_KEY=your_django_secret_key
+DEBUG=True
+VOICE_MODE=voicelab
+VOICELAB_API_KEY=your_voicelab_key_here
 VOICELAB_LLM_MODEL=aisha-orbit
 ```
 
-### 4. Ma'lumotlar bazasi migratsiyasi:
+### 4. Ma'lumotlar bazasini yangilash:
 ```bash
 python manage.py makemigrations legal
 python manage.py migrate
@@ -91,12 +135,21 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-Brauzeringizda oching: **`http://127.0.0.1:8000/`**
+Brauzerda oching: **`http://127.0.0.1:8000/`**
 
 ---
 
 ## 👨‍💻 Muallif
 
-- **Mansur Akboyev** — [GitHub Profili](https://github.com/mansur20051512)
-- TATU (Toshkent Axborot Texnologiyalari Universiteti)
-- Loyiha: O'zbekiston LegalTech Milliy Xakatoni uchun maxsus ishlab chiqilgan.
+<div align="center">
+
+**Mansur Akboyev** — [GitHub Profili](https://github.com/mansur20051512)  
+🏛️ Toshkent Axborot Texnologiyalari Universiteti (TATU / TUIT)  
+🏆 *O‘zbekiston Respublikasi Milliy LegalTech Xakatoni uchun maxsus ishlab chiqilgan.*
+
+<br/>
+
+<!-- Footer Waving Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,24,42,100&height=100&section=footer" width="100%" />
+
+</div>
